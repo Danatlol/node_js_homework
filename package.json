@@ -1,0 +1,31 @@
+{
+  "name": "node_js_homework",
+  "version": "1.0.0",
+  "description": "Node.js homework",
+  "main": "index.js",
+  "scripts": {
+    "task1": "nodemon ./homework_1/task_1.js",
+    "task2": "nodemon --exec babel-node ./homework_1/task_2.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danatlol/node_js_homework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danatlol/node_js_homework/issues"
+  },
+  "homepage": "https://github.com/Danatlol/node_js_homework#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.6",
+    "nodemon": "^2.0.1"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  }
+}
